@@ -26,10 +26,10 @@ const About = () => {
 
         </div>
 
-        <button className="know-btn">
-          Know More About Me
-          <i className="ri-arrow-right-line"></i>
-        </button>
+<button className="know-btn">
+  <span className="status-dot"></span>
+  Available for Full-Time Opportunities
+</button>
       </div>
     </section>
   );

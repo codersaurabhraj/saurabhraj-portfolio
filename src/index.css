@@ -1,0 +1,23 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #040c1d;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-section,
+.about-section,
+.skill-section,
+.projects-section,
+.career-section,
+#education,
+#certifications,
+.contact-section{
+  scroll-margin-top: 90px;
+}

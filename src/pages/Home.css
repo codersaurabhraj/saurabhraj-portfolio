@@ -1,0 +1,77 @@
+.about-skills-section {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 25px;
+    padding: 20px 15px;
+    align-items: start;
+}
+
+
+/* ================= Laptop ================= */
+@media (max-width: 1024px) {
+
+    .about-skills-section {
+        grid-template-columns: 280px 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 1150px) {
+
+    .about-skills-section {
+        grid-template-columns: 1fr;
+    }
+
+    .about-card {
+        min-height: 250px;
+    }
+
+    .about-section,
+    .skill-section {
+        padding: 0;
+    }
+
+}
+
+/* ================= Tablet ================= */
+@media (max-width: 768px) {
+
+    .about-skills-section {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+}
+
+/* ================= Mobile ================= */
+@media (max-width: 480px) {
+
+    .about-skills-section {
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .about-section {
+
+        padding: 0;
+
+        margin-top: 15px;
+
+    }
+
+    .skill-section {
+
+        padding: 0;
+
+        margin-top: 15px;
+
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

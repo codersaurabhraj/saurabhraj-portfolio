@@ -1,0 +1,129 @@
+.project-card {
+    background: #111827;
+    border-radius: 18px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border: 1px solid rgba(255, 255, 255, .08);
+        overflow: hidden;
+}
+
+.project-card:hover{
+    transform: translateY(-8px);
+    border-color: rgba(79,140,255,.45);
+    box-shadow: 0px 10px 15px rgba(79,140,255,.18);
+}
+
+.project-card img {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+        transition: transform .4s ease;
+}
+
+.project-card:hover img{
+    transform: scale(1.05);
+}
+
+.project-card h3 {
+    font-size: 16px;
+}
+
+.project-card p {
+    font-size: 12px;
+    color: #9CA3AF
+}
+
+.tech-used{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.tech-used span {
+    padding: 7px 14px;
+    background-color: #2b2d42;
+    color: #8ab4ff;
+    /* color: #4f8cff; */
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.tech-used span:hover{
+    transform: translateY(-4px);
+}
+
+
+.project-links{
+    display: flex;
+    border-top: 1px solid rgba(255,255,255,.08);
+}
+
+.project-links a{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 15px 0;
+    text-decoration: none;
+    color: white;
+    font-size:14px;
+    font-weight: 600;
+}
+
+.project-links a:first-child{
+    border-right: 1px solid rgba(255,255,255,.08);
+}
+
+.project-links a:hover{
+    /* color:#00BAD2; */
+    color: #8ab4ff;
+
+}
+
+
+@media (max-width: 768px){
+
+    .project-card{
+        padding: 18px;
+    }
+
+    .tech-used{
+        gap: 8px;
+    }
+
+}
+
+
+@media (max-width: 480px){
+
+    .project-card{
+        padding: 15px;
+    }
+
+    .project-card h3{
+        font-size: 15px;
+    }
+
+    .project-card p{
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    .tech-used span{
+        padding: 6px 10px;
+        font-size: 11px;
+    }
+
+    .project-links a{
+        font-size: 13px;
+        padding: 12px 0;
+    }
+
+}

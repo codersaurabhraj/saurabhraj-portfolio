@@ -1,0 +1,126 @@
+.projects-section {
+    padding: 0 25px;
+    margin-top: 20px;
+}
+
+.projects {
+    background: #111827;
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 18px;
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.project-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.project-header h2 i {
+    color: #4f8cff;
+    font-size: 20px;
+}
+
+.project-header a {
+    text-decoration: none;
+}
+
+.project-header button {
+    width: fit-content;
+    padding: 7px 14px;
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .2s;
+}
+
+.project-header button:hover {
+    /* background:#2563eb; */
+    /* border-color:#2563eb; */
+    /* background: #5C57FD; */
+    background: linear-gradient(90deg, #2c76ff, #6e34eb);
+    border-color: #5C57FD;
+    transform: scale(1.05);
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 15px 25px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .projects-section {
+
+        padding: 0 20px;
+
+    }
+
+    .projects-container {
+
+        gap: 20px;
+
+        padding: 20px;
+
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .project-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-section {
+        padding: 0 15px;
+    }
+
+    .project-header {
+        padding: 18px 15px;
+    }
+
+    .project-header h2 {
+        font-size: 18px;
+    }
+
+    .project-header button {
+        width: fit-content;
+        justify-content: center;
+    }
+
+    .projects-container {
+        padding: 15px;
+        gap: 15px;
+    }
+}

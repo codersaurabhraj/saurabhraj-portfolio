@@ -28,8 +28,8 @@ const project = [
     image: portfolioImg,
     description: "A responsive personal portfolio website built with React showcasing my projects, skills, and experience. Features a modern UI, smooth navigation, and a mobile-friendly design.",
     tech: ["React", "JavaScript", "CSS", "HTML"],
-    github: "https://github.com/codersaurabhraj/zaptro-ecommerce",
-    live: "https://zaptro-tech-ecommerce.netlify.app/",
+    github: "https://github.com/codersaurabhraj/saurabhraj-portfolio",
+    live: "https://saurabhrajportfolio.netlify.app/",
   }
 
 ]

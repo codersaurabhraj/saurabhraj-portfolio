@@ -1,4 +1,5 @@
-import React,{ useEffect }  from 'react'
+import React, { useEffect } from 'react'
+import "./App.css"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from './components/Navbar'
@@ -24,15 +25,17 @@ const App = () => {
 }, []);
 
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Home />
-      <Projects />
-      <Career />
-      <Stats />
-      <Contact />
-      <Footer />
+    <div className="site">
+      <div className="site-container">
+        <Navbar />
+        <Hero />
+        <Home />
+        <Projects />
+        <Career />
+        <Stats />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   )
 }

@@ -35,7 +35,7 @@ This portfolio showcases my skills, projects, experience, education, certificati
 
 ## 📸 Preview
 
-![Preview](portfolio-preview)
+![Portfolio Preview](public/portfolio-preview.webp)
 
 ---
 
